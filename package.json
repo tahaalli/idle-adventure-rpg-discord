@@ -1,0 +1,31 @@
+{
+  "name": "idle-adventure-rpg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.6.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.23.1",
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "glob": "^7.2.0",
+    "lokijs": "^1.5.12",
+    "nodemon": "^2.0.13",
+    "ts-node": "^10.2.1"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.4",
+    "@types/lokijs": "^1.5.7",
+    "typescript": "^4.4.3"
+  },
+  "module": "commonjs"
+}
